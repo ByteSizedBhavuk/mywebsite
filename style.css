@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li{
+    display:inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 7px 16px;
+    margin: 7px 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    color: white;
+}
+.navbar button,.navbar img{
+    margin: 10px 20px;
+}
+
+.navbar ul li:hover{
+    color: rgba(188, 38, 38, 0.911);
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+    font-weight: 700;
+    font-size: large;
+}
+
+.navbar button{
+    background: rgba(188, 38, 38, 0.911);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.navbar button:hover{
+    cursor: pointer;
+    background: rgba(188, 38, 38, 0.711);
+}
+
+.logo span{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Teko", sans-serif;
+    margin-left: -12px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+input{
+    background-color: rgba(49, 49, 49, 0.4);
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 20px 20px 45px;
+    color: white;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.searchbar img{
+    position: absolute;
+    left: -8px;
+}
+input:enabled{
+    border: none;
+    outline: none;
+}
+.main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: white 1px;
+}
+.bg-img{
+    width: 26%;
+    height: 100%;
+    margin: 5vh 0vw 0px 14vw;
+    
+}
+.bg-img img{
+    height: 90vh;
+}
+.content{
+    color: white;
+    height: 100%;
+    width: 40%;
+    margin: 50px;
+}
+.content h1{
+    font-size: 60px;
+    margin: 0px 0px 10px 0px;
+}
+.content p{
+    font-family: "Roboto",sans-serif;
+    font-size: 13px;
+    width: 700px;
+    opacity: 0.5;
+}
+.heading{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+}
+.heading h2{
+    font-size: 40px;
+    padding-left: 10px;
+}
+.endl{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    margin-top: 9vh;
+}
+.portfolio{
+    height: 90vh;
+    width: 100%;
+    background: #000;
+}
+.red-text{
+    color: rgba(255, 49, 49, 0.911);
+}
+.socials{
+    width: fit-content;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: white 1px;
+}
+.container{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-b{
+    padding: 10px;
+    transition: all 0.244s ease;
+}
+.link-b:hover{
+    width: 40px;
+    opacity: 0.8;
+}
